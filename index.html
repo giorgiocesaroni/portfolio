@@ -8,21 +8,18 @@
     <link rel="stylesheet" href="//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR">
     <!-- stylesheets-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/fullpage/fullpage.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/ntu4qqk.css">
     <title>George Cesar</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/vendors/easings.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="js/parallax/parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="js/gsap/CustomEase.min.js" type="module"></script>
     <script defer src="js/app.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="noise"></div>
       <div class="channel-number">RGB</div>
-      <div class="bit-announcement">>> </div>
       <!-- PAGE 1-->
       <div class="page1"><img id="gc-half" src="img/george-cesar-contour-half.png" alt="A portrait of George Cesar">
         <div class="text">
@@ -30,7 +27,8 @@
           <div class="titles">
             Multi-instrumentalist<br>
             Sound engineer<br>
-            Producer
+            Producer<br>
+            Guitarist
             
           </div>
         </div>
@@ -48,10 +46,16 @@
           <div class="credit"><span>Picture </span><a href="https://www.bykanvas.com/" target="_blank">byKanvas</a></div>
         </div>
       </div>
-      <!-- PAGE 3          -->
+      <!-- PAGE 3-->
       <div class="page3">
-        <div class="bg">       </div>
-        <div class="text">       <span>with<br></span><span>César<br></span><span class="paniagua" data-text="Paniagua">Paniagua      </span></div>
+        <video id="miami-traffic" autoplay muted loop>
+          <source src="vid/miami-traffic.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+          <div class="text">       <span>with<br></span><span>César<br></span><span class="paniagua" data-text="Paniagua">Paniagua  </span></div>
+          <div class="video-previews"><img class="video-preview1" src="img/mellow-and-fine.jpg"><img class="video-preview2" src="img/nobody-knows.jpg"></div>
+        </div>
+        <div class="video-description"><span>Miami, Florida</span></div>
       </div>
     </div>
   </body>
